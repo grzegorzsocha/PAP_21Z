@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Dane lekarza"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="specializationLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="salaryLabel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="loginLabel" alignment="0" pref="150" max="32767" attributes="0"/>
+                  <Component id="postalcodeLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cityLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="flatNumberLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="houseNumberLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="streetLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="genderLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="peselLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="birthDateLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="surnameLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="nameLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="countryLabel" alignment="0" pref="150" max="32767" attributes="0"/>
+                  <Component id="emailLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="specializationShowLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="salaryShowLabel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="91" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="surnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="birthDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="peselLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="genderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="streetLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="houseNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="flatNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="postalcodeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel14" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="countryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="emailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loginLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="specializationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="specializationShowLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="salaryShowLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="salaryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="flatNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(brak)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kod pocztowy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="postalcodeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Imi&#x119;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kraj"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nazwisko"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pesel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="countryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel17"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Login"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ulica"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="loginLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel19"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numer domu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Miasto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adres email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="surnameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="peselLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="streetLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel11"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="houseNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cityLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel13"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emailLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel14"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data urodzenia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="birthDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P&#x142;e&#x107;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="genderLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel11"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numer mieszkania"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="specializationLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Specializacja"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="specializationShowLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel13"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="salaryShowLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="salaryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pensja:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

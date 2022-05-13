@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+		http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+	<persistence-unit name="medcomplexsoft" transaction-type="RESOURCE_LOCAL">
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@//ora4.ii.pw.edu.pl:1521/pdb1.ii.pw.edu.pl" />
+			<property name="javax.persistence.jdbc.user" value="z19" />
+			<property name="javax.persistence.jdbc.password" value="acpsjw" />
+
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="validate" /> <!-- create | create-drop | validate | update -->
+			<property name="hibernate.hql.bulk_id_strategy" value="org.hibernate.hql.spi.id.inline.InlineIdsInClauseBulkIdStrategy"/>
+
+		</properties>
+
+	</persistence-unit>
+
+</persistence>

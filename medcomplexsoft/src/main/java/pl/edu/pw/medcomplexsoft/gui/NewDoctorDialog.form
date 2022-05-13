@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Nowy lekarz"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="addButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="cancelButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="passwordLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="birthDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="peselLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="genderLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="streetLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="houseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="flatLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cityLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="postalCodeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="countryLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="loginLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="emailLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="maleRadioButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="femaleRadioButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dateSpinner" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="peselField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="houseField" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="streetField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="cityField" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="flatField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="countryField" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="postalCodeField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="loginField" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="emailField" max="32767" attributes="0"/>
+                                          <Component id="passwordField" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="surnameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="hireDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="hireDateSpinner" max="32767" attributes="0"/>
+                                  <Component id="nameField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="surnameField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="specializationField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="salaryField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="surnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="surnameField" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="specializationField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="salaryField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hireDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hireDateSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="birthDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dateSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="peselLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="peselField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="genderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="maleRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="femaleRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="streetLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="streetField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="houseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="houseField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="flatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="flatField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cityField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="postalCodeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="postalCodeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="countryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="countryField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="emailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="emailField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="loginLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loginField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="passwordLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="passwordField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JRadioButton" name="maleRadioButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="M&#x119;&#x17c;czyna"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="femaleRadioButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Kobieta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="streetLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ulica"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="streetField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="houseLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numer domu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="houseField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="flatLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numer mieszkania"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="flatField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="cityLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Miasto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="postalCodeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kod pocztowy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="postalCodeField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="countryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kraj"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="countryField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="emailLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Imi&#x119;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="loginLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Login"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="surnameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nazwisko"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="loginField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="surnameField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="passwordLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Has&#x142;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="birthDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data urodzenia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="passwordField">
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateSpinner">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="now" stepSize="5" type="date"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anuluj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="peselLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PESEL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dodaj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="peselField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="genderLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P&#x142;e&#x107;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Specjalizacja"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="specializationField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pensja"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="salaryField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="hireDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data zatrudnienia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="hireDateSpinner">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="now" stepSize="5" type="date"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
